@@ -1,0 +1,30 @@
+#toggle-sidebar,
+.open-sidebar-btn,
+.close-sidebar-btn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .open-sidebar-btn,
+  .close-sidebar-btn {
+    display: block;
+  }
+  .nav-link-container {
+    background-color: #080b3383;
+    width: 220px;
+    align-items: flex-start;
+    padding: 20px;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    right: -100%;
+    z-index: 20;
+    transition: all 0.5s;
+  }
+  #toggle-sidebar:checked ~ .nav-link-container {
+    right: 0;
+  }
+  #toggle-sidebar:checked ~ .open-sidebar-btn {
+    display: none;
+  }
+}
