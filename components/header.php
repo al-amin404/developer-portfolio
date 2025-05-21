@@ -13,8 +13,8 @@
 <body class="bg-slate-800 text-white">
     <header class="h-[80px]">
         <div class="flex items-center justify-between mx-auto py-4 px-8">
-            <div class="h-12">
-                <img src="/images/logo.jpg" alt="My Portfolio" class="w-full font-bold font-serif text-xl">
+            <div class="h-12 rounded-full overflow-hidden">
+                <a href="/"><img src="/images/logo.jpg" alt="My Portfolio" class="w-full font-bold h-12 font-serif text-xl"></a>
             </div>
             <nav class="transition-all duration-500">
                 <input type="checkbox" name="" id="toggle-sidebar">
@@ -25,14 +25,14 @@
                     <a href="/">
                         <li class="text-white underline">Home</li>
                     </a>
-                    <a href="">
-                        <li>About</li>
-                    </a>
-                    <a href="">
+                    <a href="/portfolio.php">
                         <li>Portfolio</li>
                     </a>
                     <a href="">
                         <li>Services</li>
+                    </a>
+                    <a href="/about.php">
+                        <li>About</li>
                     </a>
                     <a href="">
                         <li>Contact</li>
@@ -41,3 +41,5 @@
             </nav>
         </div>
     </header>
+
+    <main class="min-h-[90vh]">
