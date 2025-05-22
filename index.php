@@ -56,7 +56,7 @@
         <h1 class="mb-8 font-bold font-mono text-2xl md:text-3xl text-center underline underline-offset-8">Service List
         </h1>
         <div
-            class="service-cards *:w-[90%] sm:w-[320px] md:*:w-[25%] flex flex-wrap gap-y-8 md:gap-4 py-4 justify-center">
+            class="service-cards *:w-[90%] sm:*:w-[320px] md:*:w-[25%] flex flex-wrap gap-y-8 md:gap-4 py-4 justify-center">
             <div
                 class="card flex flex-col justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
                 <img src="/images/service-1.jpg" alt="Service-1">
@@ -74,6 +74,7 @@
                         More</a>
                 </div>
             </div>
+
             <div
                 class="card flex flex-col justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
                 <img src="/images/service-2.jpg" alt="Service-1">
@@ -91,6 +92,7 @@
                         More</a>
                 </div>
             </div>
+
             <div
                 class="card flex flex-col justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
                 <img src="/images/service-3.jpg" alt="Service-1">
@@ -108,6 +110,7 @@
                         More</a>
                 </div>
             </div>
+
             <div
                 class="card flex flex-col justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
                 <img src="/images/service-4.jpg" alt="Service-1">
@@ -115,6 +118,24 @@
                     <div class="flex flex-col gap-2">
                         <p class="text-sm text-slate-300">Template Design</p>
                         <p class="text-xl font-mono font-bold leading-8 line-clamp-1">Email Template Design</p>
+                        <p class="text-base text-slate-100 line-clamp-3">Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Porro laudantium labore neque molestias eos! Est obcaecati dignissimos
+                            facere odit alias molestiae! Placeat reiciendis exercitationem ea debitis pariatur quis
+                            dolorem delectus?</p>
+                    </div>
+                    <a href="#"
+                        class="px-4 py-2 bg-slate-900 hover:bg-slate-100 hover:text-slate-900 w-max rounded-md">Read
+                        More</a>
+                </div>
+            </div>
+
+            <div
+                class="card flex flex-col justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
+                <img src="/images/service-2.jpg" alt="Service-1">
+                <div class="flex flex-col p-4 gap-4">
+                    <div class="flex flex-col gap-2">
+                        <p class="text-sm text-slate-300">Landing Page Design</p>
+                        <p class="text-xl font-mono font-bold leading-8 line-clamp-1">Website Landing Page Design</p>
                         <p class="text-base text-slate-100 line-clamp-3">Lorem ipsum dolor, sit amet consectetur
                             adipisicing elit. Porro laudantium labore neque molestias eos! Est obcaecati dignissimos
                             facere odit alias molestiae! Placeat reiciendis exercitationem ea debitis pariatur quis
@@ -134,7 +155,7 @@
         <h1 class="mb-8 font-bold font-mono text-2xl md:text-3xl text-center underline underline-offset-8">Client
             Testimonials</h1>
         <div
-            class="feedback-cards *:w-[90%] sm:w-[320px] md:*:w-[30%] flex flex-wrap gap-y-8 md:gap-4 py-4 justify-center *:shadow-lg *:shadow-slate-200/50">
+            class="feedback-cards *:w-[90%] sm:*:w-[320px] md:*:w-[30%] flex flex-wrap gap-y-8 md:gap-4 py-4 justify-center *:shadow-lg *:shadow-slate-200/50">
             <div class="card flex flex-col overflow-hidden rounded-xl border shadow-sm">
                 <div class="flex flex-1 flex-col justify-between bg-white p-6 lg:px-7 lg:py-8">
                     <div class="flex-1">

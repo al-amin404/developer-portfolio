@@ -153,7 +153,7 @@
 <section class="clients my-12 min-h-[70vh] py-12">
     <div class="container mx-auto flex flex-col items-center">
         <h1 class="mb-8 font-bold font-mono text-3xl text-center underline underline-offset-8">Existing Clients</h1>
-        <div class="client-cards *:w-[90%] sm:w-[320px] md:*:w-[25%] flex flex-wrap gap-4 py-4 justify-center">
+        <div class="client-cards *:w-[90%] sm:*:w-[320px] md:*:w-[25%] flex flex-wrap gap-4 py-4 justify-center">
             <div class="card flex flex-col overflow-hidden rounded-xl shadow-md shadow-slate-400">
                 <div class="flex flex-1 flex-col justify-between p-6 lg:px-7 lg:py-8">
                     <div class="flex-1">

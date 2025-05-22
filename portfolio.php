@@ -132,7 +132,7 @@
 <section class="skills">
     <div class="container mx-auto my-12">
         <h1 class="text-2xl font-mono font-bold text-center underline underline-offset-8">Special Skills</h1>
-        <div class="skill-cards flex flex-row flex-wrap gap-8 justify-center py-12 *:w-[90%] sm:w-[320px] md:*:w-[25%] *:shadow-md *:shadow-slate-600 *:hover:shadow-lg">
+        <div class="skill-cards flex flex-row flex-wrap gap-8 justify-center py-12 *:w-[90%] sm:*:w-[320px] md:*:w-[25%] *:shadow-md *:shadow-slate-600 *:hover:shadow-lg">
             <!-- card-1 -->
             <div class="card group relative h-96 overflow-hidden rounded-lg">
                 <!-- Page1 -->
