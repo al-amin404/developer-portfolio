@@ -23,19 +23,19 @@
                     class="nav-link-container flex flex-col md:flex-row gap-8 decoration-none *:font-semibold *:hover:underline *:underline-offset-8 *:text-slate-400 *:hover:text-white">
                     <label for="toggle-sidebar" class="close-sidebar-btn text-white text-base"><i class="fa-solid fa-xmark text-base"></i> Close</label>
                     <a href="/">
-                        <li class="text-white underline">Home</li>
+                        <li class="<?= $_SERVER['REQUEST_URI'] == '/' ? 'text-white underline' : '' ?>">Home</li>
                     </a>
                     <a href="/portfolio.php">
-                        <li>Portfolio</li>
+                        <li class="<?= $_SERVER['REQUEST_URI'] == '/portfolio.php' ? 'text-white underline' : '' ?>">Portfolio</li>
                     </a>
-                    <a href="">
-                        <li>Services</li>
+                    <a href="/services.php">
+                        <li class="<?= $_SERVER['REQUEST_URI'] == '/services.php' ? 'text-white underline' : '' ?>">Services</li>
                     </a>
                     <a href="/about.php">
-                        <li>About</li>
+                        <li class="<?= $_SERVER['REQUEST_URI'] == '/about.php' ? 'text-white underline' : '' ?>">About</li>
                     </a>
-                    <a href="">
-                        <li>Contact</li>
+                    <a href="/contact.php">
+                        <li class="<?= $_SERVER['REQUEST_URI'] == '/contact.php' ? 'text-white underline' : '' ?>">Contact</li>
                     </a>
                 </ul>
             </nav>

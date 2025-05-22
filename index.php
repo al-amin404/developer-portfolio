@@ -1,10 +1,11 @@
 <?php include 'components/header.php' ?>
 
 <section
-    class="hero section min-h-[70vh] flex flex-col md:flex-row gap-4 lg:gap-12 mx-auto items-center justify-center my-12">
-    <div class="intro max-w-[60%] lg:max-w-[800px]">
-        <h1 class="mb-8 font-bold font-mono text-4xl"><span
-                class="underline underline-offset-4 decoration-4">Hi!</span> I'm Al Amin</h1>
+    class="hero section min-h-[70vh] flex flex-col-reverse md:flex-row gap-4 lg:gap-12 mx-auto items-center justify-center p-4 my-12">
+    <div class="intro md:max-w-[60%] lg:max-w-[800px]">
+        <h1 class="mb-8 text-center md:text-left font-bold font-mono text-2xl md:text-4xl">
+            <span class="underline underline-offset-8 decoration-4">Hi!</span> I'm Al Amin
+        </h1>
         <div class="text-lg/8 font-mono text-slate-200 text-justify">
             <p>This is some individual introduction. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Veniam, dolores eos voluptatem temporibus eum soluta eaque ratione quo, laborum ullam in accusamus
@@ -14,20 +15,21 @@
             </p>
         </div>
     </div>
-    <div class="intro-image overflow-hidden w-[40%] max-w-[320px] rounded-full">
+    <div class="intro-image overflow-hidden w-[70%] md:w-[40%] max-w-[320px] rounded-full">
         <img src="/images/profile.jpeg" alt="Profile photo" class="w-full">
     </div>
 </section>
 
 <section class="carrier-mission my-12 min-h-[60vh] bg-slate-900 py-12">
     <div class="container mx-auto">
-        <h1 class="mb-8 font-bold font-mono text-3xl text-center underline underline-offset-8">Carrier Mission &
+        <h1 class="mb-8 font-bold font-mono text-2xl md:text-3xl text-center underline underline-offset-8">Carrier
+            Mission &
             Vision</h1>
-        <div class="flex flex-col md:flex-row gap-4 md:gap-8 my-12">
-            <div class="carrier-vision-img w-[40%]">
+        <div class="flex flex-col md:flex-row gap-4 md:gap-8 p-4 my-6 md:my-12">
+            <div class="carrier-vision-img md:w-[40%]">
                 <img src="/images/home-section-2.jpg" alt="Carrier Mission & Vision">
             </div>
-            <div class="carrier-text text-justify leading-8 w-[60%]">
+            <div class="carrier-text text-justify leading-8 md:w-[60%]">
                 <p>With the objective Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum beatae,
                     repellendus, officiis dolor eius nisi excepturi, natus dolore accusamus officia amet qui modi
                     perspiciatis optio libero autem voluptate incidunt esse? Lorem ipsum dolor sit amet consectetur,
@@ -51,10 +53,12 @@
 
 <section class="service-list my-12 min-h-[60vh] py-12">
     <div class="container mx-auto">
-        <h1 class="mb-8 font-bold font-mono text-3xl text-center underline underline-offset-8">Service List</h1>
-        <div class="service-cards flex gap-4 py-4 justify-center">
+        <h1 class="mb-8 font-bold font-mono text-2xl md:text-3xl text-center underline underline-offset-8">Service List
+        </h1>
+        <div
+            class="service-cards *:w-[90%] sm:w-[320px] md:*:w-[25%] flex flex-wrap gap-y-8 md:gap-4 py-4 justify-center">
             <div
-                class="card flex flex-col w-[25%] justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
+                class="card flex flex-col justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
                 <img src="/images/service-1.jpg" alt="Service-1">
                 <div class="flex flex-col p-4 gap-4">
                     <div class="flex flex-col gap-2">
@@ -71,7 +75,7 @@
                 </div>
             </div>
             <div
-                class="card flex flex-col w-[25%] justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
+                class="card flex flex-col justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
                 <img src="/images/service-2.jpg" alt="Service-1">
                 <div class="flex flex-col p-4 gap-4">
                     <div class="flex flex-col gap-2">
@@ -88,7 +92,7 @@
                 </div>
             </div>
             <div
-                class="card flex flex-col w-[25%] justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
+                class="card flex flex-col justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
                 <img src="/images/service-3.jpg" alt="Service-1">
                 <div class="flex flex-col p-4 gap-4">
                     <div class="flex flex-col gap-2">
@@ -105,7 +109,7 @@
                 </div>
             </div>
             <div
-                class="card flex flex-col w-[25%] justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
+                class="card flex flex-col justify-center shadow-md shadow-slate-600 hover:shadow-lg overflow-hidden rounded-md">
                 <img src="/images/service-4.jpg" alt="Service-1">
                 <div class="flex flex-col p-4 gap-4">
                     <div class="flex flex-col gap-2">
@@ -127,34 +131,36 @@
 
 <section class="client-feedbacks my-12 min-h-[60vh] py-12">
     <div class="container mx-auto">
-        <h1 class="mb-8 font-bold font-mono text-3xl text-center underline underline-offset-8">Client Testimonials</h1>
-        <div class="feedback-cards flex gap-4 py-4 justify-center">
-            <div class="card w-[30%] flex flex-col overflow-hidden rounded-xl border shadow-sm">
+        <h1 class="mb-8 font-bold font-mono text-2xl md:text-3xl text-center underline underline-offset-8">Client
+            Testimonials</h1>
+        <div
+            class="feedback-cards *:w-[90%] sm:w-[320px] md:*:w-[30%] flex flex-wrap gap-y-8 md:gap-4 py-4 justify-center *:shadow-lg *:shadow-slate-200/50">
+            <div class="card flex flex-col overflow-hidden rounded-xl border shadow-sm">
                 <div class="flex flex-1 flex-col justify-between bg-white p-6 lg:px-7 lg:py-8">
                     <div class="flex-1">
                         <div class="flex items-center">
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
@@ -169,8 +175,8 @@
                     </div>
 
                     <div class="mt-8 flex items-center">
-                        <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover"
-                            src="/images/client.jpg" alt="client" />
+                        <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/client.jpg"
+                            alt="client" />
                         <div class="ml-4">
                             <p class="text-base font-bold text-blue-900">Akorn Veesle</p>
                             <p class="mt-0.5 text-sm text-gray-500">CEO Lufthansa Corp</p>
@@ -178,32 +184,32 @@
                     </div>
                 </div>
             </div>
-            <div class="card w-[30%] flex flex-col overflow-hidden rounded-xl border shadow-sm">
+            <div class="card flex flex-col overflow-hidden rounded-xl border shadow-sm">
                 <div class="flex flex-1 flex-col justify-between bg-white p-6 lg:px-7 lg:py-8">
                     <div class="flex-1">
                         <div class="flex items-center">
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
@@ -218,8 +224,8 @@
                     </div>
 
                     <div class="mt-8 flex items-center">
-                        <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover"
-                            src="/images/profile.jpeg" alt="client" />
+                        <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/profile.jpeg"
+                            alt="client" />
                         <div class="ml-4">
                             <p class="text-base font-bold text-blue-900">Akorn Veesle</p>
                             <p class="mt-0.5 text-sm text-gray-500">CEO Lufthansa Corp</p>
@@ -227,32 +233,32 @@
                     </div>
                 </div>
             </div>
-            <div class="card w-[30%] flex flex-col overflow-hidden rounded-xl border shadow-sm">
+            <div class="card flex flex-col overflow-hidden rounded-xl border shadow-sm">
                 <div class="flex flex-1 flex-col justify-between bg-white p-6 lg:px-7 lg:py-8">
                     <div class="flex-1">
                         <div class="flex items-center">
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
-                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20" fill="currentColor">
+                            <svg class="h-5 w-5 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                fill="currentColor">
                                 <path
                                     d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                             </svg>
@@ -267,8 +273,8 @@
                     </div>
 
                     <div class="mt-8 flex items-center">
-                        <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover"
-                            src="/images/client-2.jpg" alt="client" />
+                        <img class="h-11 w-11 flex-shrink-0 rounded-full object-cover" src="/images/client-2.jpg"
+                            alt="client" />
                         <div class="ml-4">
                             <p class="text-base font-bold text-blue-900">Akorn Veesle</p>
                             <p class="mt-0.5 text-sm text-gray-500">CEO Lufthansa Corp</p>

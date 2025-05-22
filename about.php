@@ -18,7 +18,7 @@
             <p>Brothers' Dev co.</p>
         </div>
     </div>
-    <div class="intro flex flex-col gap-8 max-w-[60%] lg:max-w-[800px]">
+    <div class="intro flex flex-col gap-8 p-4 md:max-w-[60%] lg:max-w-[800px]">
         <h1 class="text-2xl font-mono font-semibold">Biography</h1>
         <div class="text-lg/8 font-mono text-slate-200 text-justify">
             <p><span class="font-semibold">I'm Al Amin</span> This is some individual introduction. Lorem ipsum dolor,
@@ -31,7 +31,7 @@
         </div>
         <a href="/resume.pdf" class="px-4 py-2 bg-slate-900 hover:bg-slate-100 hover:text-slate-900 w-max rounded-md"><i
                 class="fa fa-download"></i> Download Resume</a>
-        <div class="flex flex-col md:flex-row justify-around">
+        <div class="flex flex-col md:flex-row p-4 justify-around">
             <div class="interests">
                 <h1 class="text-xl font-mono font-semibold underline underline-offset-8 mb-4">Interests</h1>
                 <ul class="list-disc *:py-1">
@@ -42,12 +42,12 @@
                     <li>Anime</li>
                 </ul>
             </div>
-            <div class="education">
+            <div class="education mt-4 md:mt-0">
                 <h1 class="text-xl font-mono font-semibold underline underline-offset-8 mb-4">Education</h1>
                 <ul class="*:py-1">
-                    <li><i class="fa-solid fa-graduation-cap"></i> Barnamala Adarsha High School & College</li>
-                    <li><i class="fa-solid fa-graduation-cap"></i> Donia College</li>
-                    <li><i class="fa-solid fa-graduation-cap"></i> University of Dhaka</li>
+                    <li><i class="fa-solid fa-graduation-cap text-xl"></i> Barnamala Adarsha High School & College</li>
+                    <li><i class="fa-solid fa-graduation-cap text-xl"></i> Donia College</li>
+                    <li><i class="fa-solid fa-graduation-cap text-xl"></i> University of Dhaka</li>
 
                 </ul>
             </div>
@@ -153,8 +153,8 @@
 <section class="clients my-12 min-h-[70vh] py-12">
     <div class="container mx-auto flex flex-col items-center">
         <h1 class="mb-8 font-bold font-mono text-3xl text-center underline underline-offset-8">Existing Clients</h1>
-        <div class="client-cards flex gap-4 py-4 justify-center">
-            <div class="card w-[30%] flex flex-col overflow-hidden rounded-xl shadow-md shadow-slate-400">
+        <div class="client-cards *:w-[90%] sm:w-[320px] md:*:w-[25%] flex flex-wrap gap-4 py-4 justify-center">
+            <div class="card flex flex-col overflow-hidden rounded-xl shadow-md shadow-slate-400">
                 <div class="flex flex-1 flex-col justify-between p-6 lg:px-7 lg:py-8">
                     <div class="flex-1">
                         <div class="mt-8 flex items-center">
@@ -175,7 +175,7 @@
                 </div>
             </div>
 
-            <div class="card w-[30%] flex flex-col overflow-hidden rounded-xl shadow-md shadow-slate-400">
+            <div class="card flex flex-col overflow-hidden rounded-xl shadow-md shadow-slate-400">
                 <div class="flex flex-1 flex-col justify-between p-6 lg:px-7 lg:py-8">
                     <div class="flex-1">
                         <div class="mt-8 flex items-center">
@@ -196,7 +196,7 @@
                 </div>
             </div>
 
-            <div class="card w-[30%] flex flex-col overflow-hidden rounded-xl shadow-md shadow-slate-400">
+            <div class="card flex flex-col overflow-hidden rounded-xl shadow-md shadow-slate-400">
                 <div class="flex flex-1 flex-col justify-between p-6 lg:px-7 lg:py-8">
                     <div class="flex-1">
                         <div class="mt-8 flex items-center">
@@ -217,7 +217,7 @@
                 </div>
             </div>
         </div>
-        <a href="#" class="px-4 py-2 bg-slate-900 hover:bg-slate-100 hover:text-slate-900 w-max rounded-md mt-8 shadow-sm shadow-slate-600">More</a>
+        <a href="#" class="px-6 py-2 bg-slate-900 hover:bg-slate-100 hover:text-slate-900 w-max rounded-md mt-8 shadow-sm shadow-slate-600">More</a>
     </div>
 </section>
 
